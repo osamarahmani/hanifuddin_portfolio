@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Mohamed Hanifudeen | Backend Architect</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- Fonts & Icons -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!-- Animations -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Scroll Progress -->
+    <div class="scroll-progress"></div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="logo">HANIFUDEEN</div>
+        <nav class="navbar">
+            <a href="#home" class="nav-link active">Home</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#skills" class="nav-link">Skills</a>
+            <a href="#projects" class="nav-link">Projects</a>
+            <a href="#education" class="nav-link">Education</a>
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="HanifudeenResume_Final.pdf" class="btn btn-secondary" download>Resume</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="hero-title">I Build <span class="gradient-text">Scalable Backend</span><br>Systems with Java</h1>
+            <h3 class="typing-text">
+                <span class="typed-text" id="typing"></span>
+            </h3>
+            <p class="hero-desc">
+                Backend-Focused Full Stack Engineer specializing in <strong>Java Spring Boot</strong>, 
+                secure APIs, database optimization & scalable microservices architecture.
+            </p>
+            <div class="home-buttons">
+                <a href="#contact" class="btn btn-primary">Hire Me</a>
+                <a href="HanifudeenResume_Final.pdf" class="btn btn-secondary" download>
+                    <i class="fas fa-download"></i> Download Resume
+                </a>
+            </div>
+        </div>
+        <div class="home-img">
+            <img src="haniforimg.jpeg" alt="Mohamed Hanifudeen - Backend Engineer" class="profile-img">
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-wrapper" data-aos="fade-up" data-aos-delay="100">
+                <div class="about-left glass-card">
+                    <h3>Backend Architect</h3>
+                    <p>
+                        Expert in building <strong>production-ready systems</strong> using Java, Spring Boot, 
+                        Hibernate & PostgreSQL. Focus on clean architecture, performance & scalability.
+                    </p>
+                    <p>
+                        8.3 CGPA | 15+ Projects | Ready for Backend Engineering roles & internships.
+                    </p>
+                </div>
+                <div class="about-right">
+                    <div class="stat-card" data-aos="zoom-in">
+                        <h4>15+</h4>
+                        <span>Projects Built</span>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="100">
+                        <h4>8.3</h4>
+                        <span>CGPA</span>
+                    </div>
+                    <div class="stat-card" data-aos="zoom-in" data-aos-delay="200">
+                        <h4>100%</h4>
+                        <span>Clean Code</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section skills-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="glass-card skill-card" data-aos="fade-up">
+                    <h3><i class="fas fa-laptop-code"></i> Frontend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3><i class="fas fa-server"></i> Backend</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Spring Boot</span>
+                        <span class="skill-tag">Hibernate</span>
+                        <span class="skill-tag">Servlets</span>
+                        <span class="skill-tag">JSP</span>
+                    </div>
+                </div>
+                <div class="glass-card skill-card" data-aos="fade-up" data-aos-delay="200">
+                    <h3><i class="fas fa-database"></i> Database</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">Oracle SQL</span>
+                        <span class="skill-tag">JDBC</span>
+                    </div>
+                </div>
+                <!-- 🔥 UPDATED TOOLS SECTION - Postman + 2 More 🔥 -->
+                <div class="glass-card skill-card" data-aos="fade-up" data-aos-delay="300">
+                    <h3><i class="fas fa-tools"></i> Tools & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git / GitHub</span>
+                        <span class="skill-tag">Postman</span>
+                        <span class="skill-tag">Eclipse IDE</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Maven</span>
+                        <span class="skill-tag">Docker</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 🔥 UPDATED PROJECTS - 4 Projects Total 🔥 -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Featured Projects</h2>
+            <div class="projects-grid">
+                
+                <!-- PROJECT 1 -->
+                <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-overlay">
+                        <h3>Employee Management System</h3>
+                        <p><strong>Enterprise CRUD application</strong> with complete employee lifecycle management, role-based access, reporting dashboard & optimized database operations using Java + JDBC.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>JDBC</span>
+                            <span>PostgreSQL</span>
+                            <span>Servlets</span>
+                        </div>
+                        <a href="https://github.com/Hanifudeenmd" target="_blank" class="btn btn-primary small">View Code →</a>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="project-overlay">
+                        <h3>Inventory Management System</h3>
+                        <p><strong>Full-stack application</strong> using <strong>Hibernate ORM</strong> for inventory tracking, stock management, CRUD operations & optimized database queries with real-time reporting.</p>
+                        <div class="project-tech">
+                            <span>Java</span>
+                            <span>Hibernate</span>
+                            <span>PostgreSQL</span>
+                            <span>Spring Boot</span>
+                        </div>
+                        <a href="https://github.com/Hanifudeenmd" target="_blank" class="btn btn-primary small">View Code →</a>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-overlay">
+                        <h3>Task Manager App</h3>
+                        <p><strong>Modern responsive</strong> task management application with drag & drop, local storage, priority sorting, dark mode & real-time updates built with vanilla technologies.</p>
+                        <div class="project-tech">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Local Storage</span>
+                        </div>
+                        <a href="https://github.com/Hanifudeenmd" target="_blank" class="btn btn-primary small">View Code →</a>
+                    </div>
+                </div>
+
+                <!-- PROJECT 4 -->
+                <div class="glass-card project-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="project-overlay">
+                        <h3>Secure Login & Registration</h3>
+                        <p>Complete authentication system with session management, input validation, password hashing & secure database verification using modern Java technologies.</p>
+                        <div class="project-tech">
+                            <span>Java Servlets</span>
+                            <span>JSP</span>
+                            <span>JDBC</span>
+                            <span>Session Management</span>
+                        </div>
+                        <a href="https://github.com/Hanifudeenmd" target="_blank" class="btn btn-primary small">View Code →</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section education-section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Education</h2>
+            <div class="timeline" data-aos="fade-up">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>B.Tech Information Technology</h3>
+                        <p>Mohamed Sathak Engineering College</p>
+                        <span class="cgpa">CGPA: 8.3</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <h3>Higher Secondary</h3>
+                        <p>DD Vinayagar Hr. Sec. School</p>
+                        <span class="cgpa">80%</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-hero" data-aos="fade-up">
+                <div class="glass-card">
+                    <p class="contact-subtitle">
+                        Open for Backend roles, internships & projects. Let's build something great!
+                    </p>
+                </div>
+            </div>
+            <div class="contact-grid" data-aos="fade-up" data-aos-delay="100">
+                <a href="https://github.com/Hanifudeenmd" class="contact-item" target="_blank">
+                    <div class="contact-icon"><i class="fab fa-github"></i></div>
+                    <div>
+                        <h4>GitHub</h4>
+                        <p>hanifudeenmd</p>
+                    </div>
+                </a>
+                <a href="mailto:hanifudeen44@gmail.com" class="contact-item">
+                    <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                    <div>
+                        <h4>Email</h4>
+                        <p>hanifudeen44@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://wa.me/918925169233" class="contact-item" target="_blank">
+                    <div class="contact-icon"><i class="fab fa-whatsapp"></i></div>
+                    <div>
+                        <h4>WhatsApp</h4>
+                        <p>+91 89251 69233</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer data-aos="fade-up">
+        © 2026 Mohamed Hanifudeen. All rights reserved.
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
